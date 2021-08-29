@@ -1,13 +1,12 @@
 import firebase from "firebase";
-import fbConfig from "./firebaseConfig.json";
 
 const firebaseConfig = {
-    apiKey: fbConfig.apiKey,
-    authDomain: fbConfig.authDomain,
-    projectId: fbConfig.projectId,
-    storageBucket: fbConfig.storageBucket,
-    messagingSenderId: fbConfig.messagingSenderId,
-    appId: fbConfig.appId
+    apiKey: "AIzaSyD1IKu6mgzT5E1qEhsEYg2O79tQBMvnhYM",
+    authDomain: "docs-clone-ad5cd.firebaseapp.com",
+    projectId: "docs-clone-ad5cd",
+    storageBucket: "docs-clone-ad5cd.appspot.com",
+    messagingSenderId: "422020339526",
+    appId: "1:422020339526:web:4e4b9cee3a870864c83747"
 };
 
 // INITIALIZE FIREBASE APP
